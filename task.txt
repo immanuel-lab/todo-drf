@@ -1,0 +1,5 @@
+to create to do list
+1.design models
+2.user registration
+3.basic authentication(login and logout)
+4.create ,delete,update,read tasks

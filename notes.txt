@@ -1,0 +1,24 @@
+authentication-Authentication in Django REST Framework 
+(DRF) refers to the process of identifying and verifying
+ the identity of a user or client making requests to the API
+
+
+
+authorization-Authorization is the process of 
+determining whether a user is allowed to access a 
+particular resource
+
+permissions-permissions determine whether a request should be 
+granted or denied access
+
+
+Permission and authorization are two different concepts in DRF.
+
+Permission is the set of rules that define what a user is allowed to 
+do with a particular resource. For example, a user might be allowed to
+ read a snippet, but not allowed to update it.
+
+Authorization is the process of determining whether a user is allowed to 
+access a particular resource. For example, a user might be authenticated,
+ but not authorized to access a snippet that they do not own.
+
