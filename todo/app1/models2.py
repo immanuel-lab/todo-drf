@@ -39,8 +39,3 @@ class CustomUser(AbstractUser):
     objects = CustomUserManager()
 
 
-# models for todo
-
-# class Todo(models.Model):
-#     task=models.ForeignKey(CustomUser,on_delete=models.CASCADE)
-#     date=models.DateTimeField(auto_now_add=True)

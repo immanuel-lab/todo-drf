@@ -17,8 +17,8 @@ path('forgot-password/<encoded_pk>/<token>',
      name='reset-password'),
 
 
-path('change-password/',views.change_password,name='change_password')
+path('change-password/',views.change_password,name='change_password'),
 
-
+path('todo/',views.todo_list,name='todo_list')
 ]
 

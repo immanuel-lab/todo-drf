@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import CustomUser
+from .models import CustomUser,Todo
 
 class CustomUserSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True)
@@ -31,3 +31,10 @@ class CustomUserSerializer(serializers.ModelSerializer):
 #     class Meta:
 #         model=Todo
 #         fields='__all__'
+
+
+
+class TodoSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Todo
+        fields = '__all__'
