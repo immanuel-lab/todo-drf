@@ -19,6 +19,7 @@ path('forgot-password/<encoded_pk>/<token>',
 
 path('change-password/',views.change_password,name='change_password'),
 
-path('todo/',views.todo_list,name='todo_list')
+path('todo/',views.todo_list,name='todo_list'),
+ path('todo/<int:pk>/', views.todo_detail, name='todo-detail'),
 ]
 
